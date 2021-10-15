@@ -1,13 +1,18 @@
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
 #container {
   margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 2s ease;
 }
 
 .segmentClass {
   border: 1px solid rgb(0, 183, 255);
-  width: 160px;
+  width: 200px;
   position: absolute;
-  /* margin: 150px; */
 }
