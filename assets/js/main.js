@@ -1,7 +1,9 @@
-let segments = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+let segments = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (var i = 0; i <= 9; i++) {
-  var segment = document.createElement('div')
-  segment.innerHTML = segments[i]
-  seggie.appendChild(segment)
+for (let i = 0; i < segments.length; i++) {
+  // console.log(segments[i]);
+  var segment = document.createElement("div");
+  segment.innerHTML = segments[i];
+  document.body.appendChild(segment);
+  segment.classList.add("segmentClass");
 }
